@@ -1,0 +1,224 @@
+	<title>BMR Calculator - Calculate your BMR and Calorie Needs</title>
+
+	<!-- Meta Tags -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="generator" content="WordPress" />
+	<meta name="framework" content="WP Framework" />
+
+	<!-- Favicon: Browser + iPhone Webclip -->
+	<link rel="shortcut icon" href="http://www.bmrcalculator.org/wp-content/themes/wp-framework/library/media/images/favicon.ico" />
+	<link rel="apple-touch-icon" href="http://www.bmrcalculator.org/wp-content/themes/wp-framework/library/media/images/iphone.png" />
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="http://www.bmrcalculator.org/wp-content/themes/wp-framework/style.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="http://www.bmrcalculator.org/wp-content/themes/wp-framework/library/media/css/print.css" type="text/css" media="print" />
+        <link rel="stylesheet" href="/layout.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="/tablestyle.css" type="text/css" media="screen, projection" />
+
+
+  	<!-- Links: RSS + Atom Syndication + Pingback etc. -->
+	<link rel="alternate" type="application/rss+xml" title="BMR Calculator RSS Feed" href="http://www.bmrcalculator.org/feed/" />
+	<link rel="alternate" type="text/xml" title="RSS .92" href="http://www.bmrcalculator.org/feed/rss/" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://www.bmrcalculator.org/feed/atom/" />
+	<link rel="pingback" href="http://www.bmrcalculator.org/xmlrpc.php" />
+  
+<meta name="description" content="Provides a BMR calculator that can calculate your BMR and the number of calories you burn a day." />
+<meta name="keywords" content="BMR Calculator, BMR, calculate BMR, Basal Metabolic Rate, Basal Metabolic Rate Calculator" />
+<link rel="canonical" />
+<!-- /all in one seo pack -->
+
+ <!--  -->
+<script type="text/javascript">
+//<![CDATA[
+var _wpcf7 = { cached: 1 };
+//]]>
+</script>
+<STYLE type="text/css">
+	div.wpld_pr {
+		font-size: 6pt;
+		color: #000000;
+		float: left;
+		height: 30px;
+		margin-right: 5px;
+	}
+	div.wpld_prg {
+		width: 40px;
+		border: 1px solid #999999;
+		height: 3px;
+		font-size: 1px;
+	}
+	div.wpld_prb {
+		background: #5eaa5e;
+		height: 3px;
+		font-size: 1px;
+	}
+	.wpld_panel {
+		padding:6px;
+		background:#ddd;
+		border:1px solid black;
+	}
+	/* The navbar which shows these links: Home | Add URL | Link To Us | Search */
+	.wpld_navbar {
+	}
+</style>
+
+<!--END head-->
+</head>
+
+        <div class="menu"><ul class="nav"><li class="current_page_item"><a href="http://www.bmrcalculator.org" title="Home">Home</a></li><li class="page_item page-item-61"><a href="http://www.bmrcalculator.org/how-many-calories-should-i-eat-a-day/" title="How Many Calories Should I Eat a Day">How Many Calories Should I Eat a Day</a></li><li class="page_item page-item-91"><a href="http://www.bmrcalculator.org/blog-guest-posts-nutrition-fitness-weight-loss/" title="Blog | Guest Posts &#8211; Nutrition, Fitness, Weight Loss">Blog - Guest Posts</a></li><li class="page_item page-item-8"><a href="http://www.bmrcalculator.org/contact-us/" title="Contact Us">Contact Us</a></li></ul></div>
+
+		<!--BEGIN #content-->
+		<div id="content">
+					<!--BEGIN #primary .hfeed-->
+			<div id="primary" class="hfeed">
+<div id="contentcolumn">
+<div class="innertube">
+<div class="innertube">
+<div class="innertube">
+
+							
+				<!--BEGIN .hentry-->
+				<div id="post-4" class="post-4 page hentry category-uncategorized p publish first-page author-admin cat untagged y2010 m06 d15 h19">
+					<hr><center><h1 style="color:#770303" class="entry-title">BMR Calculator</h1></center><hr>
+</div></div></div>
+
+
+<!-- AddThis Button BEGIN -->
+<script type="text/javascript">
+var addthis_config = {
+    data_track_clickback: false
+}
+<div class="feedbackform">
+<div class="fieldwrapper">
+<div class="styled"><strong>Age:</strong></div>
+<div class="thefield"><input id="age" onkeypress="return numbersonly(event, true)" size="5" type="text" /> Years</div>
+</div>
+<div class="fieldwrapper">
+<div class="styled"><strong>Gender:</strong></div>
+<div class="thefield">
+
+<!--
+<ul style="margin-top:0;" mce_style="margin-top: 0;">
+	<li>-->
+<input id="genderMale" name="gender" type="radio" /> <label>Male</label>
+<!--</li>
+	<li> -->
+<input id="genderFemale" checked="checked" name="gender" type="radio" /> <label>Female</label>
+<!--</li>
+-->
+
+</div>
+</div>
+<div class="fieldwrapper">
+<div class="styled"><strong>Weight:</strong></div>
+<div class="thefield"><input id="weight" onkeypress="return numbersonly(event, true)" size="10" type="text" />
+<br>
+<input id="inputWeightLbs" checked="checked" name="inputWeight" type="radio" /> <label>lbs</label>
+<input id="inputWeightKg" name="inputWeight" type="radio" /> <label>Kg</label>
+</div>
+<div class="fieldwrapper">
+<div class="styled"><strong>Height:</strong></div>
+<div class="thefield"><input id="inputHeightFtInches" onclick="setToFt();" checked="checked" name="inputHeight" type="radio" /> <label>Feet/Inches</label>
+<input id="inputHeightCms" onclick="setToCm();" name="inputHeight" type="radio" /> <label>Cms</label>
+<br>
+<div id="feetInches"><input id="heightFeet" onkeypress="return numbersonly(event, true)" size="4" type="text" /> Feet
+<br>
+<input id="heightInches" onkeypress="return numbersonly(event, true)" size="4" type="text" /> Inches</div>
+<div id="Cms" style="display: none;"><input id="heightCM" onkeypress="return numbersonly(event, true)" size="4" type="text" /> Cm</div>
+</div>
+</div>
+<div class="buttonwrapper"><a class="boldbuttons" href="javascript:calculate()"><span>Calculate Your BMR</span></a></div>
+<hr />
+<div class="shiftcontainer">
+<div class="shadowcontainer">
+<div class="innerdiv">
+<div id="BMR1Div"><strong>Your BMR:</strong></div>
+</div>
+<br>
+<br>
+<strong><i>Total Calories Burned a Day Depending on Activity Level:</i></strong><i> </i>
+<table id="hor-zebra">
+<thead> <strong> </strong>
+<tr class="odd">
+<th>Activity Level</th>
+<th> Description</th>
+<th> Calories Burned Per Day</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Low</td>
+<td>You get little to no exercise</td>
+<td><div id="CalBurn1A1"></div></td>
+</tr>
+<tr class="odd">
+<td>Light</td>
+<td>You exercise lightly (1-3 days per week)</td>
+<td><div id="CalBurn1A2"></div></td>
+</tr>
+<tr>
+<td>Moderate</td>
+<td>You exercise moderately (3-5 days per week)</td>
+<td><div id="CalBurn1A3"></div></td>
+</tr>
+<tr class="odd">
+<td>High</td>
+<td>You exercise heavily (6-7 days per week)</td>
+<td><div id="CalBurn1A4"></div></td>
+</tr>
+<tr>
+<td>Very High</td>
+<td>You exercise very heavily (i.e. 2x per day, extra heavy workouts)</td>
+<td><div id="CalBurn1A5"></div></td>
+</tr>
+<strong> </strong></tbody>
+</table>
+
+</center>
+</td>
+</tr>
+</table>
+<br>
+<div id="BMR2Div"><span style=""><strong>Your BMR:</strong></span></div>
+<br>
+<span style=""><strong><i>Total Calories Burned a Day Depending on Activity Level:</i></strong><i> </i></span>
+<table id="hor-zebra">
+<thead> <span style="font-size: x-small;"><strong> </strong></span>
+<tr class="odd">
+<th>Activity Level</th>
+<th> Description</th>
+<th> Calories Burned Per Day</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Low</td>
+<td>You get little to no exercise</td>
+<td><div id="CalBurn2A1"></div></td>
+</tr>
+<tr class="odd">
+<td>Light</td>
+<td>You exercise lightly (1-3 days per week)</td>
+<td><div id="CalBurn2A2"></div></td>
+</tr>
+<tr>
+<td>Moderate</td>
+<td>You exercise moderately (3-5 days per week)</td>
+<td><div id="CalBurn2A3"></div></td>
+</tr>
+<tr class="odd">
+<td>High</td>
+<td>You exercise heavily (6-7 days per week)</td>
+<td><div id="CalBurn2A4"></div></td>
+</tr>
+<tr>
+<td>Very High</td>
+<td>You exercise very heavily (i.e. 2x per day, extra heavy workouts)</td>
+<td><div id="CalBurn2A5"></div></td>
+</tr>
+<span style="font-size: x-small;"><strong> </strong>
+</span></tbody>
+</table>
+<span style="font-size: x-small;"> </span>
+
+<!--END body-->
